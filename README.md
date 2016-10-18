@@ -6,4 +6,4 @@
 
 Depends on wordpress (tested with 4.6.1)
 
-Licence : GNU GPL v2
+Licence : GNU GPL v2 (or later)
