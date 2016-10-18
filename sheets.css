@@ -1,0 +1,60 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+/* w3c's sweet loader */
+.loader {
+	display: none; /* hide by default -> set to block */
+	margin: auto;
+	box-shadow: 0 0 15px;
+	border: 16px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid #3498db;
+	width: 120px;
+	height: 120px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+/* custom css */
+.highlighted {
+	color: #286090;
+	font-weight: bold;
+}
+.list-selector {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#sheets a, .nav-center {
+	text-align: center;
+}
+
+#instruments input {
+	margin-right: 10px;
+}
+
+.veil {
+	position: absolute;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: .25rem;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 10;
+	display: none;
+}
+
+.veil .loader {
+	display: block;
+	margin-top: calc(25% - 60px);
+}
