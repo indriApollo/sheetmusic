@@ -8,6 +8,7 @@ if(!$_SESSION["isAdmin"]) {
 }
 ?>
 <!DOCTYPE html>
+<html>
 <head>
 <meta charset="utf-8">
 <title>RHJ sheetmusic DB</title>
