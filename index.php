@@ -3,6 +3,7 @@ require_once("inc/sheets_functions.php");
 user_login("index.php");
 ?>
 <!DOCTYPE html>
+<html>
 <head>
 <meta charset="utf-8">
 <title>RHJ sheetmusic DB</title>
